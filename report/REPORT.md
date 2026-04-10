@@ -1,7 +1,9 @@
 # Báo Cáo Lab 7: Embedding & Vector Store
 
 **Họ tên:** [Lương Hoàng Anh]
+
 **Nhóm:** [Nhom 64]
+
 **Ngày:** 2026-04-10
 
 ---
