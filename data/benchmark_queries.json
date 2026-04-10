@@ -1,0 +1,90 @@
+[
+  {
+    "id": "q1",
+    "query": "Điều kiện tiếng Anh, GPA khuyến nghị và 3 kỳ tuyển sinh đại học của VinUni là gì?",
+    "gold_answer": "Ứng viên bậc đại học cần tốt nghiệp THPT hoặc tương đương; tiếng Anh theo một trong các chuẩn sau: IELTS từ 6.5, không kỹ năng nào dưới 6.0; hoặc TOEFL iBT tối thiểu 79; hoặc PTE Academic tối thiểu 58; hoặc CAE tối thiểu 176. GPA được khuyến nghị từ 8.0 trở lên. Ba kỳ tuyển sinh gồm: kỳ sớm 15/10–15/01, kỳ thường 15/02–15/05, và kỳ cuối 15/06–15/08.",
+    "expected_sources": [
+      "https://admissions.vinuni.edu.vn/vi/dai-hoc/cau-hoi-thuong-gap/tuyen-sinh/"
+    ],
+    "gold_facts": {
+      "ielts": "6.5+; no band below 6.0",
+      "toefl_ibt": "79 minimum",
+      "pte_academic": "58 minimum",
+      "cae": "176 minimum",
+      "recommended_gpa": "8.0+",
+      "admission_rounds": [
+        "15/10-15/01",
+        "15/02-15/05",
+        "15/06-15/08"
+      ]
+    }
+  },
+  {
+    "id": "q2",
+    "query": "Học phí niêm yết mỗi năm của Điều dưỡng và các ngành khác là bao nhiêu? Sau hỗ trợ 35% còn khoảng bao nhiêu?",
+    "gold_answer": "Học phí niêm yết là khoảng 349.650.000 VND/năm cho ngành Điều dưỡng và khoảng 815.850.000 VND/năm cho các ngành khác. Sau khi áp dụng Hỗ trợ Phát triển Giáo dục 35%, mức còn lại khoảng 227 triệu VND/năm cho Điều dưỡng và khoảng 530 triệu VND/năm cho các chương trình khác.",
+    "expected_sources": [
+      "https://admissions.vinuni.edu.vn/vi/dai-hoc/cau-hoi-thuong-gap/hoc-phi-hoc-bong-va-ho-tro-tai-chinh/"
+    ],
+    "gold_facts": {
+      "listed_tuition_nursing_vnd_per_year": 349650000,
+      "listed_tuition_other_programs_vnd_per_year": 815850000,
+      "education_development_support": "35%",
+      "remaining_tuition_nursing_approx_vnd_per_year": 227000000,
+      "remaining_tuition_other_programs_approx_vnd_per_year": 530000000
+    }
+  },
+  {
+    "id": "q3",
+    "query": "VinUni cho phép những hình thức học liên ngành/sinh viên có thể học như thế nào, và có thể học rút ngắn không?",
+    "gold_answer": "VinUni cho phép sinh viên học theo các hình thức: ngành đơn, ngành kép trong cùng một Viện, ngành chính – ngành phụ (minor có thể liên viện), bằng kép/song bằng trong cùng một Viện hoặc giữa hai Viện, và bằng tích hợp tại trường đối tác. Do đào tạo theo hệ thống tín chỉ, sinh viên có thể chủ động tích lũy tín chỉ để rút ngắn từ 4 năm xuống còn 3.5 năm.",
+    "expected_sources": [
+      "https://admissions.vinuni.edu.vn/vi/dai-hoc/cau-hoi-thuong-gap/chuong-trinh-dao-tao/"
+    ],
+    "gold_facts": {
+      "study_options": [
+        "nganh don",
+        "nganh kep trong cung 1 Vien",
+        "nganh chinh - nganh phu",
+        "bang kep/song bang",
+        "bang tich hop tai truong doi tac"
+      ],
+      "credit_system": true,
+      "accelerated_duration": "from 4 years to 3.5 years"
+    }
+  },
+  {
+    "id": "q4",
+    "query": "Điều kiện tốt nghiệp cử nhân tại VinUni là gì? GPA tối thiểu bao nhiêu?",
+    "gold_answer": "Để được công nhận tốt nghiệp và cấp bằng cử nhân, sinh viên cần hoàn thành số tín chỉ tối thiểu trong thời gian đào tạo quy định; hoàn thành yêu cầu về Giáo dục Đại cương/VinCore và năng lực tiếng Anh; hoàn tất toàn bộ môn bắt buộc của ngành; xử lý hết điểm I – Chưa hoàn thành ở các môn bắt buộc; đạt GPA tích lũy tối thiểu 2.00/4.00; không vi phạm pháp luật hoặc có án tích hình sự đến thời điểm xét tốt nghiệp; đồng thời đáp ứng các yêu cầu khác của nhà trường.",
+    "expected_sources": [
+      "https://registrar.vinuni.edu.vn/vi/hoc-thuat-dich-vu/tot-nghiep/"
+    ],
+    "gold_facts": {
+      "minimum_gpa": "2.00/4.00",
+      "requirements": [
+        "complete minimum credits within program duration",
+        "complete VinCore/general education and English proficiency requirements",
+        "complete all required courses of the major",
+        "resolve all I grades in required courses",
+        "no legal violations or criminal record at graduation review time",
+        "meet other university requirements"
+      ]
+    }
+  },
+  {
+    "id": "q5",
+    "query": "Sinh viên năm nhất có bắt buộc ở ký túc xá không? Dịch vụ y tế và tham vấn tâm lý nằm ở đâu, hotline nào?",
+    "gold_answer": "Tại VinUni, tất cả sinh viên năm nhất đều phải sống trong ký túc xá. Dịch vụ Y tế ở phòng I119, tầng 1 nhà I, hotline (+84) 866 200 019. Dịch vụ Tham vấn tâm lý ở phòng I118, tầng 1 tòa nhà I, hotline (+84) 868 900 016.",
+    "expected_sources": [
+      "https://vinuni.edu.vn/vi/campus-services-vi/"
+    ],
+    "gold_facts": {
+      "first_year_dorm_required": true,
+      "medical_service_location": "I119, first floor, building I",
+      "medical_hotline": "+84 866 200 019",
+      "counselling_location": "I118, first floor, building I",
+      "counselling_hotline": "+84 868 900 016"
+    }
+  }
+]
